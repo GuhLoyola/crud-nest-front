@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .close-btn {
+        @apply md:text-4xl text-2xl text-purple-500 rounded-full hover:text-purple-700 transition-all ease-in-out duration-300 absolute md:top-2 top-1 md:right-2 right-1
+    }
+}
